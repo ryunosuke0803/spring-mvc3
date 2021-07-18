@@ -45,5 +45,5 @@ public class Invoice {
 	//必須入力、日付へ変更
 	@NotNull
 	@DateTimeFormat(iso = ISO.DATE)
-	private LocalDate paymentDeadline;
+	private LocalDate paymentdeadline;
 }

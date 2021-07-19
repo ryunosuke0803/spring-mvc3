@@ -39,7 +39,7 @@ public class Invoice {
 	//必須入力、1000円以上、数値へ変換
 	@NotNull
 	@Min(1000)
-	@NumberFormat(pattern = "#,##")
+	@NumberFormat(pattern = "#,###")
 	private BigDecimal price;
 	
 	//必須入力、日付へ変更
